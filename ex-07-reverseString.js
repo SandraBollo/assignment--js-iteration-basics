@@ -8,6 +8,20 @@
  *
 */
 
+function reverseString(str) {
+  // consol.log(str)
+  var tex = []
+  for (var i = str.length -1; i >= 0; i = i -1){
+    var stRing = str[i]
+    tex.push(stRing)
+  }
+  var reveTex = tex.join('')
+  console.log(reveTex)
+  return reveTex
+
+
+}
+
 
 
 

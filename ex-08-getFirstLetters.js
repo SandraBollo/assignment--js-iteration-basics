@@ -9,7 +9,19 @@
  * from the previous queestion
 */
 
+function getFirstLetters(arrAy) {
+  var primerLetra = []
+  for (var i = 0; i < arrAy.length; i++) {
+    var elementoArray = arrAy[i]
+    // console.log(elementoArray [i])
+    var charElem = elementoArray[0]
 
+    primerLetra.push(charElem)
+
+  }
+  console.log(primerLetra)
+  return primerLetra
+}
 
 
 

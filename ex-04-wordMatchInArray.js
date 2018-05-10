@@ -7,12 +7,18 @@
  *
 */
 
+function wordMatchInArray(stRing, cadena) {
+
+for (var i = 0; i < cadena.length; i++) {
+  if (cadena.indexOf(stRing)>=0) {
+    return true
+  }else {
+    return false
+  }
+}
 
 
-
-
-
-
+}
 
 
 

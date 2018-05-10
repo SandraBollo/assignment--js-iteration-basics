@@ -15,7 +15,24 @@
  *        //-> ['Ben Sampson', 'Janet Sampson', 'Kristy Simpson']
  *
 */
+function simpOrSamp( lista1) {
+  // console.log(lista1);
+var elemntArray = []
+for (var i = 0; i < lista1.length; i++) {
+var elementpato = lista1[i]
+ if (elementpato.length <= 5) {
+   elemntArray.push(elementpato + " Sampson")
 
+ } else if (elementpato.length > 5) {
+   elemntArray.push(elementpato + " Simpson")
+
+ }
+
+
+}
+  // console.log(elemntArray)
+return elemntArray
+}
 
 
 

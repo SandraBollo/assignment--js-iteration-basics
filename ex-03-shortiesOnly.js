@@ -8,7 +8,18 @@
  *
 */
 
+function shortiesOnly(lista1) {
+  // console.log(lista1)
+  var arrayInput = []
+  for (var i = 0; i < lista1.length; i++) {
 
+    if (lista1[i].length <= 4) {
+      arrayInput.push(lista1[i])
+
+    }
+  }
+ return arrayInput
+}
 
 
 
@@ -43,7 +54,7 @@ var moreNames = [
 
 
 var shortList = shortiesOnly(allNames)
-var littleNameList = shortiesOnly(allNames)
+var littleNameList = shortiesOnly(moreNames)
 
 
 console.assert( shortList.length === 4 )
@@ -55,7 +66,7 @@ console.assert( shortList.indexOf('Fred') >= 0 )
 console.assert( shortList.indexOf('Wayne') === -1 )
 
 // -- Test 2
-console.assert( littleNameList.length === 3 )
+console.assert( littleNameList.length === 4 )
 console.assert( littleNameList.indexOf('Kate') >= 0 )
 console.assert( littleNameList.indexOf('Matt') >= 0 )
 console.assert( littleNameList.indexOf('Ken') >= 0 )

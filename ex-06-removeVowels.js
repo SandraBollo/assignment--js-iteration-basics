@@ -8,6 +8,31 @@
 */
 
 
+function removeVowels(str) {
+  // console.log(str)
+  var resultado = []
+  for (var i = 0; i < str.length; i++) {
+    var nombres =  str[i].toLowerCase()
+    // console.log(nombres)
+    if (nombres !== "a" && nombres !== "e" && nombres !== "i" && nombres !== "o" && nombres !== "u"   ){
+      resultado.push(nombres)
+
+
+    }
+
+
+
+
+  }
+var palabra = resultado.join("")
+console.log(palabra)
+return palabra
+
+
+
+}
+
+
 
 
 

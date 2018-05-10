@@ -8,13 +8,24 @@
  *  Example:
  *    var ex1 = arrayToString(['my','name','is','lina'])
  *    console.log(ex1)
- *        //-> 'mynameislina' 
+ *        //-> 'mynameislina'
  *
  * You must use a for-loop to solve this problem.
  **/
 
-
 function arrayToString(arrayInput){
+  var cadena = ""
+for (var i = 0; i < arrayInput.length; i++) {
+  console.log(arrayInput[i])
+  cadena += arrayInput[i]
+
+
+}
+  console.log(cadena);
+
+  return cadena
+
+
   /* Your code below. Look at the console.asserts to se*/
 }
 
