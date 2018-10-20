@@ -8,7 +8,7 @@
  *
 **/
 function countWordInArray(stRing, arRay) { // aqui esta un string y un array
-  var resultado = 0    // me dide que retorne el numero de veces que aparece mi string en mi array, comienso en cero
+  var resultado = 0    // me dide que retorne el numero de veces que aparece mi string en mi array, comienzo en cero
   for (var i = 0; i < arRay.length; i++) {  //  cuento mis elemntos que hay en un array
     var elementos = arRay[i]      // mis elementos son todos los que contiene un Array ( ['i', 'saw', 'my', 'brother', 'who', 'supposedly', 'saw', 'my', 'sister', ])
     // console.log(elementos)     me muestra  todo llo que se encuentra en el array por eso el [i]
